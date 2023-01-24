@@ -1,0 +1,20 @@
+::selection {
+  background: indigo;
+  color: lightyellow;
+}
+
+:root {
+  background-color: lemonchiffon;
+  background-image: radial-gradient(lemonchiffon, peachpuff);
+  color: indigo;
+}
+
+:any-link {
+  color: darkviolet;
+}
+
+@media (prefers-contrast: more) {
+  :any-link {
+    color: purple;
+  }
+}

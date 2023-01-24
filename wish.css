@@ -1,0 +1,26 @@
+::selection {
+  background: #fff909;
+  color: #151515;
+}
+
+:root {
+  background-color: indigo;
+  background-image: radial-gradient(indigo, darkslategray);
+  color: lemonchiffon;
+}
+
+:any-link {
+  color: #09ff09;
+}
+
+@media (prefers-contrast: less) {
+  :any-link {
+    color: #fff909;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background-image: radial-gradient(midnightblue, indigo);
+  }
+}
